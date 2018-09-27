@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#container{
+	max-width: 1000px;
+	width: 100%;
+	height: 500px;
+}
+
+#block{
+	width: 500px;
+	height: 500px;
+	background-color: red;
+	display: inline-block;
+	float: left;
+}
+
+#block:nth-child(2){
+	transform: scaleX(-1);
+}
+
+.white{
+	max-width: 100px;
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+	float: centere
+	background-color: #fff;
+}
+
+.black{
+	max-width: 100px;
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+	float: left;
+	background-color: #000;	
+}

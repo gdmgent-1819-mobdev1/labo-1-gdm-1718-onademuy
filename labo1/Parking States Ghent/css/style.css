@@ -1,0 +1,30 @@
+body {
+    padding: 50px 0;
+    text-align: center;
+    background: #749bd6;
+}
+#parking-overview {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.parking {
+    background: whitesmoke;
+    border: 1px solid #000000;
+    padding: 30px;
+    margin-bottom: 10px;
+    width: 32%;            
+}
+.parking ul, .parking li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.error {
+    flex: 1;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 3px solid tomato;
+    color: tomato;
+}
